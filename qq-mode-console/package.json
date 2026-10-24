@@ -1,0 +1,21 @@
+{
+  "name": "qq-mode-console",
+  "version": "0.2.0-r3",
+  "description": "QQ bridge mode console for DeepSeek Harness settings UI (chat / closed-agent / reserved / reserved2)",
+  "type": "module",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MoFeng2336/qq-bridge-plugins",
+    "directory": "qq-mode-console"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  }
+}
