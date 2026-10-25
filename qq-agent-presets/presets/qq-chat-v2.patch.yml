@@ -15,7 +15,6 @@
           - id: persona
             name: '@deepseek-ai/dsh-persona'
             config:
-              suffix: Your working directory is {{cwd}}.
               complete: true
               includeRuntimeContext: false
               prefix: |-
